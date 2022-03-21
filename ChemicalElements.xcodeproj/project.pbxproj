@@ -11,6 +11,8 @@
 		305AFE3027E8E53900671A2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AFE2F27E8E53900671A2F /* ContentView.swift */; };
 		305AFE3227E8E53A00671A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305AFE3127E8E53A00671A2F /* Assets.xcassets */; };
 		305AFE3527E8E53A00671A2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305AFE3427E8E53A00671A2F /* Preview Assets.xcassets */; };
+		305AFE3C27E9326E00671A2F /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AFE3B27E9326E00671A2F /* Element.swift */; };
+		305AFE3E27E934E800671A2F /* chemicalElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AFE3D27E934E800671A2F /* chemicalElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		305AFE2F27E8E53900671A2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		305AFE3127E8E53A00671A2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		305AFE3427E8E53A00671A2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		305AFE3B27E9326E00671A2F /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		305AFE3D27E934E800671A2F /* chemicalElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chemicalElements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				305AFE2D27E8E53900671A2F /* ChemicalElementsApp.swift */,
 				305AFE2F27E8E53900671A2F /* ContentView.swift */,
+				305AFE3B27E9326E00671A2F /* Element.swift */,
+				305AFE3D27E934E800671A2F /* chemicalElements.swift */,
 				305AFE3127E8E53A00671A2F /* Assets.xcassets */,
 				305AFE3327E8E53A00671A2F /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				305AFE3E27E934E800671A2F /* chemicalElements.swift in Sources */,
 				305AFE3027E8E53900671A2F /* ContentView.swift in Sources */,
 				305AFE2E27E8E53900671A2F /* ChemicalElementsApp.swift in Sources */,
+				305AFE3C27E9326E00671A2F /* Element.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
